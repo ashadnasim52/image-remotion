@@ -4,12 +4,11 @@
  *
  * All configuration options: https://remotion.dev/docs/config
  */
+
 import { Config } from '@remotion/cli/config';
-import { enableTailwind } from '@remotion/tailwind';
+import { webpackOverride } from './src/webpack-override';
 
 Config.setVideoImageFormat('jpeg');
 Config.setOverwriteOutput(true);
 
-Config.overrideWebpackConfig((currentConfiguration) => {
-	return enableTailwind(currentConfiguration);
-});
+Config.overrideWebpackConfig(webpackOverride);

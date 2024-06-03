@@ -4,6 +4,7 @@ import './fonts.css';
 import { Swirl } from './Swirl';
 import { z } from 'zod';
 import { zColor } from '@remotion/zod-types';
+import './style.css';
 
 const fontFamily = 'Inter';
 
@@ -74,7 +75,7 @@ export const PreviewCardTwo: React.FC<z.infer<typeof myCompSchema>> = ({
 	return (
 		<AbsoluteFill style={absContainer}>
 			<AbsoluteFill>
-				<div style={container}>
+				<div className='bg-red-900'>
 					<div style={titleStyle}>
 						22222 <span style={gradientText}>{title}</span>
 					</div>
