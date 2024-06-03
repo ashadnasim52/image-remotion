@@ -1,23 +1,15 @@
 import React from 'react';
-import { AbsoluteFill } from 'remotion';
+import {AbsoluteFill} from 'remotion';
 import './fonts.css';
-import { Swirl } from './Swirl';
-import { z } from 'zod';
-import { zColor } from '@remotion/zod-types';
+import {Swirl} from './Swirl';
+import {z} from 'zod';
+import {zColor} from '@remotion/zod-types';
 import './style.css';
 
 const fontFamily = 'Inter';
 
 const absContainer: React.CSSProperties = {
 	backgroundColor: 'white',
-};
-
-const container: React.CSSProperties = {
-	flex: 1,
-	padding: 100,
-	fontFamily,
-	// Setting this property allows you to set a linebreak via URL parameter %0A
-	whiteSpace: 'pre-wrap',
 };
 
 const titleStyle: React.CSSProperties = {
@@ -75,7 +67,7 @@ export const PreviewCardTwo: React.FC<z.infer<typeof myCompSchema>> = ({
 	return (
 		<AbsoluteFill style={absContainer}>
 			<AbsoluteFill>
-				<div className='bg-red-900'>
+				<div className="bg-red-900">
 					<div style={titleStyle}>
 						22222 <span style={gradientText}>{title}</span>
 					</div>

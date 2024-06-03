@@ -37,6 +37,7 @@ export const ProductAdTwo: React.FC<z.infer<typeof ProductAdTwoSchema>> = ({
 					src={staticFile(bgcName)}
 					className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
 					width="1308"
+					height={'500'}
 				/>
 				<div className="relative px-6 pb-8 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
 					<div className="mx-auto max-w-md">

@@ -54,7 +54,8 @@ export const RemotionRoot: React.FC = () => {
 					offerText: 'Discounted Price',
 					offerPrice: '$79.99',
 					actionButtonText: 'Buy Now',
-					productImage: 'https://via.placeholder.com/800',
+					productImage:
+						'https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=800',
 					bgcName: 'rrreplicate.svg',
 				}}
 			/>
