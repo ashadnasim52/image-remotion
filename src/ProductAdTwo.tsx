@@ -42,7 +42,7 @@ export const ProductAdTwo: React.FC<z.infer<typeof ProductAdTwoSchema>> = ({
 				<div className="relative px-6 pb-8 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
 					<div className="mx-auto max-w-md">
 						<div className="border-1 relative flex h-60 items-center overflow-hidden rounded-xl border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
-							<img
+							<Img
 								className="object-contain align-middle"
 								src={productImage}
 								alt="product image"
