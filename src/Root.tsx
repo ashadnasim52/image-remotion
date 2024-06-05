@@ -44,8 +44,8 @@ export const RemotionRoot: React.FC = () => {
 			<Still
 				id="ProductAdTwo"
 				component={ProductAdTwo}
-				width={500}
-				height={800}
+				width={1000}
+				height={1600}
 				schema={ProductAdTwoSchema}
 				defaultProps={{
 					title: 'Amazing Product',
